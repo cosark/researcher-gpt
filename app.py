@@ -1,4 +1,3 @@
-#hello
 import os
 from dotenv import load_dotenv
 
@@ -42,7 +41,6 @@ def search(query):
     print(response.text)
 
     return response.text
-
 
 # 2. Tool for scraping
 def scrape_website(objective: str, url: str):
