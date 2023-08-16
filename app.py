@@ -1,3 +1,4 @@
+#hello
 import os
 from dotenv import load_dotenv
 
@@ -23,7 +24,6 @@ brwoserless_api_key = os.getenv("BROWSERLESS_API_KEY")
 serper_api_key = os.getenv("SERP_API_KEY")
 
 # 1. Tool for search
-
 
 def search(query):
     url = "https://google.serper.dev/search"
